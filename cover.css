@@ -1,0 +1,128 @@
+/*
+ * Globals
+ */
+
+/* Links */
+.section1{
+
+background-image: url('image.jpg');
+background-size: cover;
+
+margin-top: 30px;
+  font-size: 25px;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+
+}
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #df3e3e;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+
+}
+
+
+/*
+ * Base structure
+ */
+
+
+
+.cover-container {
+
+   color:rgb(98, 98, 106);
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {padding: 30px;
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  transition: 1s ease-out;
+  font-size: 20px;
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(214, 125, 125, 0.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+
+
+  color:black;
+  border:5px white double;
+
+  border-radius: 10px 10px;
+
+  background-color: white;
+
+
+
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #be455f;
+  border-bottom-color: rgba(245, 16, 16, 0.65);
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {font-family:'pacifico',cursive;
+
+  padding: 0 1.5rem;
+
+font-size: 15px;
+}
+.cover .btn-lg {
+
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+  background-color:transparent;
+  border-radius: 30px 30px;
+
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+padding: 5px;
+}
